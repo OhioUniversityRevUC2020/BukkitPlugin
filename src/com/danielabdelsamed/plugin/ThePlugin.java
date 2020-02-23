@@ -5,7 +5,13 @@
 package com.danielabdelsamed.plugin;
 
 import org.bukkit.Bukkit;
+import org.bukkit.Location;
+import org.bukkit.Material;
+import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
+import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
@@ -27,5 +33,21 @@ public class ThePlugin extends JavaPlugin {
     }
 
 
+    @EventHandler(priority= EventPriority.HIGHEST, ignoreCancelled = true)
+    public void onBlockBreak(BlockBreakEvent e) {
+        Block block = e.getBlock();
+        Player player = e.getPlayer();
+
+        Location bLoc= block.getLocation();
+
+        String blockName = block.getType().toString();
+        String uuid = player.getUniqueId().toString();
+        int x = bLoc.getBlockX();
+        int y = bLoc.getBlockY();
+        int z = bLoc.getBlockZ();
+    }
+
+
 }
+
 

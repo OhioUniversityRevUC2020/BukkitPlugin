@@ -63,7 +63,7 @@ public class TimerJob extends TimerTask {
                             public void run() {
 
                                 for(int i = 0; i < 100; i++){
-                                    player.getWorld().createExplosion(player.getLocation().getBlockX(), player.getLocation().getBlockY(), player.getLocation().getBlockZ(), 5, false, false);
+                                    player.getWorld().createExplosion(player.getLocation().getBlockX(), player.getLocation().getBlockY(), player.getLocation().getBlockZ(), 1, false, false);
                                 }
                             }
                         });
