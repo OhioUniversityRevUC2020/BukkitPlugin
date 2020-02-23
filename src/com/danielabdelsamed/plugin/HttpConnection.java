@@ -27,7 +27,7 @@ class CurrentUsersResponse {
 public class HttpConnection {
 
     public ArrayList<String> sendCurrentUsers(ArrayList<Player> players) throws IOException {
-        URL url = new URL("http://localhost:8080/test");
+        URL url = new URL("http://api.rev-uc-2020.asq.digital/plugin/current-players");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("POST");
 
