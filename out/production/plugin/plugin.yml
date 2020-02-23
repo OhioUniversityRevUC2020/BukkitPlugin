@@ -1,0 +1,4 @@
+name: ThePlugin
+version: 1
+author: 2 & half Daniels
+main: com.danielabdelsamed.plugin.ThePlugin
