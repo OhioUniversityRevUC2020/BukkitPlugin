@@ -18,7 +18,7 @@ public class ThePlugin extends JavaPlugin {
     public void onEnable() {
         super.onEnable();
         Timer timer = new Timer();
-        timer.schedule(new TimerJob(), 0, 5000);
+        timer.schedule(new TimerJob(this), 0, 5000);
     }
 
     @Override

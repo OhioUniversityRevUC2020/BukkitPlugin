@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/gson/docs/javadocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/codegen/src/main/java" />
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/codegen/src/test/java" />
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/examples/android-proguard-example/src" />
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/extras/src/main/java" />
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/extras/src/test/java" />
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/gson/src/main/java" />
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/gson/src/main/java-templates" />
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/gson/src/test/java" />
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/metrics/src/main/java" />
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/proto/src/main/java" />
+      <root url="jar://$USER_HOME$/Desktop/gson-gson-parent-2.8.6.zip!/gson-gson-parent-2.8.6/proto/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
